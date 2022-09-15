@@ -10,7 +10,7 @@ function App() {
     fetch('https://jsonplaceholder.typicode.com/posts')
       .then((response) => response.json())
       .then(setPosts);
-  }, [])
+  }, []);
 
   return (
     <div className="App">
